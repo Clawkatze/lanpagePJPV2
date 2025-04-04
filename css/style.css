@@ -61,7 +61,11 @@ div {
 .img1 {
     width: 350px;
     height: 400px;
+<<<<<<< HEAD
     margin-right: 20px; 
+=======
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+>>>>>>> 3b79b03 (PlantasV1)
     padding: 20px;
 }
 
