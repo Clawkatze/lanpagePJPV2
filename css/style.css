@@ -14,23 +14,24 @@ body {
 
 div {
     border: 5px solid black;
-    border-radius: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
+
 
 
 .banner {
     background-image: url('/images/plantas/fondoP.jpg');
     background-size: 50%; 
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-position: right; 
     background-color: #d3d3d3; 
     height: 300px; 
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start; 
     align-items: center; 
     padding-left: 20px; 
-    color: white;
+    color: white; 
 }
 
 .banner-titulo h1 {
@@ -53,7 +54,7 @@ div {
 .contenedor-imagen-texto {
     display: flex;
     align-items: center; 
-    justify-content: start;
+    justify-content: start; 
     margin-bottom: 20px; 
     background-color: aliceblue;
 }
@@ -61,29 +62,26 @@ div {
 .img1 {
     width: 350px;
     height: 400px;
-<<<<<<< HEAD
     margin-right: 20px; 
-=======
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
->>>>>>> 3b79b03 (PlantasV1)
     padding: 20px;
 }
 
 .texto {
-    max-width: 500px;
+    max-width: 500px; 
     border: none; 
 }
 
 .texto p {
-    margin: 5px 0;
+    margin: 5px 0; 
 }
 
-/* Footer */
+
 footer {
     background-color: aqua;
-    text-align: center;
+    text-align: center; 
     padding: 10px 0;
     border: 5px solid black;
+    border-radius: 20px;
     margin: 20px;
 }
 
