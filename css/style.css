@@ -14,24 +14,24 @@ body {
 
 div {
     border: 5px solid black;
-    border-radius: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
 
-/* Banner */
-/* Banner */
+
+
 .banner {
-    background-image: url('/images/plantas/fondo.jpg');
-    background-size: 50%; /* Reducir el tamaño de la imagen al 50% */
-    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
-    background-position: right; /* Centrar la imagen */
-    background-color: #d3d3d3; /* Color gris para rellenar el espacio vacío */
-    height: 300px; /* Mantener la altura del banner */
+    background-image: url('/images/plantas/fondoJ.jpg');
+    background-size: 50%; 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    background-color: #d3d3d3; 
+    height: 300px; 
     display: flex;
-    justify-content: flex-start; /* Alinea el contenido al principio (izquierda) */
-    align-items: center; /* Centra el texto verticalmente */
-    padding-left: 20px; /* Espacio a la izquierda */
-    color: white; /* Color del texto */
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 20px; 
+    color: white; 
 }
 
 .banner-titulo h1 {
@@ -50,35 +50,35 @@ div {
     border: none;
 }
 
-/* Contenedor de la imagen y el texto */
+
 .contenedor-imagen-texto {
     display: flex;
-    align-items: center; /* Alinea la imagen y el texto verticalmente */
-    justify-content: start; /* Alinea los elementos al principio */
-    margin-bottom: 20px; /* Espacio entre los contenedores si hay más de uno */
+    align-items: center; 
+    justify-content: start; 
+    margin-bottom: 20px; 
     background-color: aliceblue;
 }
 
 .img1 {
-    width: 400px;
+    width: 350px;
     height: 400px;
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-right: 20px; 
     padding: 20px;
 }
 
 .texto {
-    max-width: 500px; /* Limita el tamaño del texto */
-    border: none; /* Elimina los bordes */
+    max-width: 500px; 
+    border: none; 
 }
 
 .texto p {
-    margin: 5px 0; /* Añade un pequeño margen entre los párrafos */
+    margin: 5px 0; 
 }
 
-/* Footer */
+
 footer {
     background-color: aqua;
-    text-align: center; /* Centra el texto dentro del footer */
+    text-align: center; 
     padding: 10px 0;
     border: 5px solid black;
     border-radius: 20px;
